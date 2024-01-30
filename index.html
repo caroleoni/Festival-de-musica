@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+   <header class="header">
+    <div class="container content-header">
+        <h1>Rock & EDM Festival</h1>
+        <nav class="navigation-major">
+            <a href="#">Line Up</a>
+            <a href="#">Galería</a>
+            <a href="#">Boletos</a>
+        </nav>
+    </div>
+   </header>
+
+   <div class="video">
+        <div class="overlay">
+            <div class="container content-video">
+                <h2>Rock & EDM Festival</h2>
+                <p>Enero 2024 - Cañada de Gomez, Santa Fe</p>
+            </div>
+        </div>
+    
+        <!--muted-> para que quede en silencio el video y loop -> para que cuando llegue al final se siga reporduciendo
+            controls-> habilita los controles, ej: adelantar el video, descargarlo, etc-->
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4" />
+            <source src="video/concierto.ogg" type="video/ogg" />
+            <source src="video/concierto.webm" type="video/webm" />
+        </video>
+    </div>
+    <section class="container about-festiva">
+        <div class="image">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif" />
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp" />
+                <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="Vocalista avif" />
+            </picture>
+        </div>
+        <div class="content-festival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="date">Enero 2024 - Cañada de Gomez, Santa Fe</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, culpa. Ut velit, a, eligendi numquam in ab deleniti aspernatur repellendus vero consectetur eveniet quidem aliquam odio laudantium similique molestiae illum?</p>
+        </div>
+    </section>
+    <section class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 21</p>
+        <div class="container-scenarios container">
+            <div class="scenario rock bg-amarillo">
+                <p class="scenario-name">Escenario Rock</p>
+                <ul class="calendar">
+
+                </ul>
+            </div><!--escenario-->
+            <div class="scenario edm bg-verde">
+                <p class="scenario-name">Escenario EDM</p>
+                <ul class="calendar">
+
+                </ul>
+            </div><!--escenario-->
+        </div> <!--container-scenarios-->
+
+        <p class="dia">Sabado 22</p>
+        <div class="container-scenarios container">
+            <div class="scenario rock bg-verde">
+                <p class="scenario-name">Escenario Rock</p>
+                <ul class="calendar">
+
+                </ul>
+            </div><!--escenario-->
+            <div class="scenario edm bg-amarillo">
+                <p class="scenario-name">Escenario EDM</p>
+                <ul class="calendar">
+
+                </ul>
+            </div><!--escenario-->
+        </div> <!--container-scenarios-->
+
+    </section>
+</body>
+</html>

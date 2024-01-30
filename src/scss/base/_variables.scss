@@ -1,0 +1,19 @@
+// tiene guion bajo para qe identifique cual es el archivo principal, en este caso es app.scss, osea como este tiene 
+// guion bajo no es el principal
+
+//TIPOGRAFIA
+$fuente_principal: 'Montserrat', sans-serif;
+
+//COLORES
+$verde: #4CB8B3;
+$rosa: #F53756;
+$amarillo: #FEF460;
+$morado: #752F97;
+$negro: #000000;
+$blanco: #FFFFFF;
+
+//TAMAÑOS DE MEDIA QUERIES
+$phone: 460px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXL: 1200px;
