@@ -1,11 +1,11 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
-.about-festiva {
+.about-festival {
     padding: 5rem 0;
     
     @include m.tablet {
-        @include m.grid(2);
+        @include m.grid(2, 5rem);
     }
 }
 

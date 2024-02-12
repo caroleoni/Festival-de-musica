@@ -15,9 +15,9 @@
     <div class="container content-header">
         <h1>Rock & EDM Festival</h1>
         <nav class="navigation-major">
-            <a href="#">Line Up</a>
-            <a href="#">Galería</a>
-            <a href="#">Boletos</a>
+            <a href="#lineup">Line Up</a>
+            <a href="#gallery">Galería</a>
+            <a href="#tickets">Boletos</a>
         </nav>
     </div>
    </header>
@@ -38,7 +38,7 @@
             <source src="video/concierto.webm" type="video/webm" />
         </video>
     </div>
-    <section class="container about-festiva">
+    <section class="container about-festival">
         <div class="image">
             <picture>
                 <source srcset="build/img/imagen_vocalista.avif" type="image/avif" />
@@ -52,20 +52,55 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, culpa. Ut velit, a, eligendi numquam in ab deleniti aspernatur repellendus vero consectetur eveniet quidem aliquam odio laudantium similique molestiae illum?</p>
         </div>
     </section>
-    <section class="lineup">
+    <section id="lineup" class="lineup">
         <h3>Line Up</h3>
         <p class="dia">Viernes 21</p>
         <div class="container-scenarios container">
             <div class="scenario rock bg-amarillo">
-                <p class="scenario-name">Escenario Rock</p>
+                <p class="scenario-name">Escenario Rock Nacional</p>
                 <ul class="calendar">
-
+                    <li>
+                        24:00 || <span>Babasonico</span>
+                    </li>
+                    <li>
+                        22:00 || <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 || <span>Los Enanitos Verdes</span>
+                    </li>
+                    <li>
+                        19:00 || <span>Soda Stereo</span>
+                    </li>
+                    <li>
+                        18:00 || <span>Los Auténticos Decadentes</span>
+                    </li>
+                    <li>
+                        17:00 || <span>Luis Alberto Spinetta</span>
+                    </li>
                 </ul>
             </div><!--escenario-->
-            <div class="scenario edm bg-verde">
-                <p class="scenario-name">Escenario EDM</p>
-                <ul class="calendar">
 
+            <div class="scenario classic bg-verde">
+                <p class="scenario-name">Escenario Rock Clasico</p>
+                <ul class="calendar">
+                    <li>
+                        24:00 || <span>Aerosmith</span>
+                    </li>
+                    <li>
+                        22:00 || <span>Guns N' Roses</span>
+                    </li>
+                    <li>
+                        20:00 || <span>The Beatles</span>
+                    </li>
+                    <li>
+                        19:00 || <span>AC/DC</span>
+                    </li>
+                    <li>
+                        18:00 || <span>Pink Floyd</span>
+                    </li>
+                    <li>
+                        17:00 || <span>The Rolling Stones</span>
+                    </li>
                 </ul>
             </div><!--escenario-->
         </div> <!--container-scenarios-->
@@ -73,19 +108,98 @@
         <p class="dia">Sabado 22</p>
         <div class="container-scenarios container">
             <div class="scenario rock bg-verde">
-                <p class="scenario-name">Escenario Rock</p>
+                <p class="scenario-name">Escenario Rock Nacional</p>
                 <ul class="calendar">
-
+                    <li>
+                        24:00 || <span>Vilma Palma e Vampiros</span>
+                    </li>
+                    <li>
+                        22:00 || <span>Andrés Calamaro</span>
+                    </li>
+                    <li>
+                        20:00 || <span>Gustavo Cerati</span>
+                    </li>
+                    <li>
+                        19:00 || <span>Fito Paez</span>
+                    </li>
+                    <li>
+                        18:00 || <span>Charly García</span>
+                    </li>
+                    <li>
+                        17:00 || <span>León Gieco</span>
+                    </li>
                 </ul>
             </div><!--escenario-->
-            <div class="scenario edm bg-amarillo">
-                <p class="scenario-name">Escenario EDM</p>
-                <ul class="calendar">
 
+            <div class="scenario classic bg-amarillo">
+                <p class="scenario-name">Escenario Rock Clasico</p>
+                <ul class="calendar">
+                    <li>
+                        24:00 || <span>Queen</span>
+                    </li>
+                    <li>
+                        22:00 || <span>The Who</span>
+                    </li>
+                    <li>
+                        20:00 || <span>Pink Floyd</span>
+                    </li>
+                    <li>
+                        19:00 || <span>Led Zeppelin</span>
+                    </li>
+                    <li>
+                        18:00 || <span>U2</span>
+                    </li>
+                    <li>
+                        17:00 || <span>Metallica</span>
+                    </li>
                 </ul>
             </div><!--escenario-->
         </div> <!--container-scenarios-->
-
     </section>
+    <section id="gallery" class="gallery container">
+        <h3>Galeria</h3>
+        <ul class="image-gallery"></ul>
+    </section>
+    <section id="tickets" class="tickets bg-verde">
+        <h3>Boletos</h3>
+        <div class="container tickets-container">
+            <div class="basic pass">
+                <p class="name-pass">Pase 1 Dia</p>
+                <header class="pass-header">
+                    <p>Include</p>
+                </header>
+                <div class="pass-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                    </ul>
+                </div>
+                <footer class="pass-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+            <div class="premium pass">
+                <p class="name-pass">Pase 2 Dia</p>
+                <header class="pass-header">
+                    <p>Include</p>
+                </header>
+                <div class="pass-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                        <li>Camisa del evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pass-footer">
+                    <p>$180</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <p>Rock Nacional & Rock Clásico Festival. Todos los derechos reservados</p>
+    </footer>
+    <script src="build/js/app.js"></script>
 </body>
 </html>
